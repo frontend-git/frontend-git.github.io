@@ -103,7 +103,7 @@ NOTE: This is the custom jQuery file for the template
         $documentElement.on('scroll', function () {
         
                 var currentScrollTop = $(this).scrollTop();
-            if(currentScrollTop >  lastScrollTop ) nav.addClass('hidden');
+            if(currentScrollTop >  lastScrollTop ) nav.addClass('');
             
             else nav.removeClass('hidden');
             
