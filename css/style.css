@@ -3130,6 +3130,45 @@ a.more-link:hover {
 	}
 
 
+ul.skill-list h3 {
+   display: block;
+    margin-bottom: 0;
+   font-size: 18px;
+    color: #000;
+    font-weight: normal;
+    letter-spacing: 0;
+    
+}
 
-	
-/
+ul.skill-list li {
+	list-style:none;
+}
+
+.progress{
+	margin: 5px 0 15px;
+	display: block;
+    height: 6px;    
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background: #ffffff;
+	box-shadow:0;
+}
+.skill-list .progress {
+    border: 1px solid #3a6bc4;     height: 15px;
+}
+.gray-bg{ margin-bottom:20px;}
+.skill-list .progress .percentage {
+    background-color: #3a6bc4;
+}
+.progress .percentage {
+      border-radius: 50px 50px 50px 50px;
+    bottom: 0;
+    position: absolute;
+    top: 0;
+}
