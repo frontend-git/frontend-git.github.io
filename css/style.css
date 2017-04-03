@@ -3136,7 +3136,8 @@ ul.skill-list h3 {
     font-size: 18px;
     color: #000;
     font-weight: 600;
-    letter-spacing: 0;
+    letter-spacing: 0;  
+	text-transform: uppercase;
     
 
 	}
@@ -3164,8 +3165,8 @@ ul.skill-list li {
 	box-shadow:0;
 }
 .skill-list .progress {
-       border: 1px solid #697488;
-    height: 15px;
+       border: 1px solid #cacfd8;
+   height: 10px;
 }
 .gray-bg{ margin-bottom:20px;}
 .skill-list .progress .percentage {
@@ -3177,3 +3178,9 @@ ul.skill-list li {
     position: absolute;
     top: 0;
 }
+
+.tool-block{ padding-top:30px; padding-bottom:30px;}
+
+.tool-block .skill-list li h3{   list-style-type: circle;
+    text-transform: capitalize;
+    display: list-item;}
