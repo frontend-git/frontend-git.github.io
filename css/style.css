@@ -1,9 +1,8 @@
  /*************************************
 
-Template Name: Aarong - Personal Portfolio Template
-Author: ThemeFusionBD
+
 Version: 1.0
-Design and Developed by: ThemeFusionBD
+Design and Developed by: 
 
 NOTE: This is main stylesheet of the template.
 
@@ -3137,7 +3136,7 @@ ul.skill-list h3 {
     color: #000;
     font-weight: 600;
     letter-spacing: 0;  
-	text-transform: uppercase;
+	text-transform: capitalize;
     
 
 	}
@@ -3162,11 +3161,11 @@ ul.skill-list li {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     background: #ffffff;
-	box-shadow:0;
+	
 }
 .skill-list .progress {
        border: 1px solid #cacfd8;
-   height: 10px;
+      height: 7px;
 }
 .gray-bg{ margin-bottom:20px;}
 .skill-list .progress .percentage {
