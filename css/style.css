@@ -3140,7 +3140,7 @@ ul.skill-list h3 {
     
 
 	}
-
+ul.skill-list { padding: 0px; }
 ul.skill-list li {
 	list-style: none;
     margin-bottom: 10px;
